@@ -5,11 +5,12 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "test": "jest"
+    "test": "jest",
+    "watch-test": "jest --watch"
   },
   "repository": {
     "type": "git",
-    "url": "(https://github.com/Pankaj086/Test-React)"
+    "url": "(https://github.com/Pankaj086/Hungry-Hub)"
   },
   "keywords": [
     "react"

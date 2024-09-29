@@ -1,0 +1,35 @@
+.shimmer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+
+.shim-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 16rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, rgba(165, 165, 165, 0.2) 25%, rgba(165, 165, 165, 0.5) 50%, rgba(165, 165, 165, 0.2) 75%);
+    background-size: 200% 100%;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.shimmer-animation {
+    animation: shimmer 1.5s infinite linear;
+}
+
+@keyframes shimmer {
+    0% {
+    background-position: 200% 0;
+    }
+    100% {
+    background-position: -200% 0;
+    }
+}
+    
